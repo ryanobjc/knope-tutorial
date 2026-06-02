@@ -1,1 +1,9 @@
 * An example repo for knope
+
+* Pre-releases
+
+New pre-release policy.
+
+** Policy update
+
+Pre-releases will be made using knope.toml now.
