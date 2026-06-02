@@ -4,3 +4,6 @@
 
 New pre-release policy.
 
+** Policy update
+
+Pre-releases will be made using knope.toml now.
