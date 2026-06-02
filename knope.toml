@@ -1,0 +1,7 @@
+[[workflows]]
+  name = "pre-release"
+
+[[workflows.steps]]
+  type = "BumpVersion"
+  rule = "Pre"
+  label = "dev"
