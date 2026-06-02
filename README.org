@@ -1,1 +1,6 @@
 * An example repo for knope
+
+* Pre-releases
+
+New pre-release policy.
+
