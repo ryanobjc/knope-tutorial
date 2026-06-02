@@ -1,3 +1,7 @@
+[github]
+   owner = "ryanobjc"
+   repo = "knope-tutorial"
+
 [[workflows]]
   name = "pre-release"
 
