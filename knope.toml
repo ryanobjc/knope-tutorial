@@ -2,6 +2,28 @@
   name = "pre-release"
 
 [[workflows.steps]]
-  type = "BumpVersion"
-  rule = "Pre"
-  label = "dev"
+  type = "PrepareRelease"
+  prerelease_label = "dev"
+
+[[workflows.steps]]
+  type = "Command"
+  command = "git push"
+
+[[workflows.steps]]
+  type = "Release"
+
+
+[[workflows]]
+  name = "release"
+
+[[workflows.steps]]
+  type = "PrepareRelease"
+
+[[workflows.steps]]
+  type = "Command"
+  command = "git commit -m \"chore: prepare release $version\""
+
+[[workflow.steps]]
+  type  = "Command"
+  command = "git push"
+
